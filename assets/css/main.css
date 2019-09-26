@@ -3200,6 +3200,7 @@
 			padding: 0 0 0 0;
 			background-position: left;
 			width: 150%;
+			margin-top: -4rem;
 		}
 	}
 
@@ -3232,15 +3233,17 @@
 		#banner .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
-			color: #fff;
+			color: #4285F4;
 			min-width: 12em;
+			border: 1px solid #4285F4;
 		}
 
 			#banner input[type="submit"]:hover,
 			#banner input[type="reset"]:hover,
 			#banner input[type="button"]:hover,
 			#banner .button:hover {
-				background-color: rgba(255, 255, 255, 0.1);
+				background-color: #4285F4;
+				color: white;
 			}
 
 			#banner input[type="submit"]:active,
@@ -3304,7 +3307,7 @@
 
 	@media(max-width:800px){
 		#footer{
-			width: 75%;
+			width: 73%;
 		}
 	}
 
@@ -3737,11 +3740,11 @@
 
 		/* Section/Article */
 
-			header.major {
+			headers.major {
 				padding: 1em;
 			}
 
-				header.major h2, header.major p {
+				headers.major h2, headers.major p {
 					padding-left: 0.5em;
 					padding-right: 0.5em;
 				}
@@ -3809,15 +3812,15 @@
 				padding: 4em 0 0 0;
 			}
 
-				#main > header {
+				#main > headers {
 					margin: 0 2em 1.5em 2em;
 				}
 
-					#main > header h2 {
+					#main > headers h2 {
 						font-size: 2em;
 					}
 
-					#main > header p {
+					#main > headers p {
 						font-size: 1em;
 						padding-bottom: 1em;
 					}
@@ -4006,7 +4009,38 @@
 	}
 
 	@media(max-width: 800px){
-		#headers{
+		.logo{
 			display: none;
+		}
+	}
+
+	
+	@media(max-width: 800px){
+		.nav-link{
+			/* border: 1px solid blue; */
+			margin-left: -25rem;
+			width: 700px;
+			display: flex;
+		}
+	}
+
+	@media(max-width: 800px){
+		.nav-item{
+			margin-left: -14rem;
+			width: 700px;
+		}
+	}
+
+
+	@media(max-width: 800px){
+		.seedalarmtag{
+			display: none;
+		}
+	}
+	@media(max-width: 800px){
+		.responsivebutton{
+			/* border: 1px solid blue; */
+			margin-top: 5rem;
+			text-decoration: none;
 		}
 	}
