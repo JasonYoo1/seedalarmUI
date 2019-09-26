@@ -1,15 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-/*
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
-
-/* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3176,7 +3167,7 @@
 		background-repeat: no-repeat;
 		background-size: 50%;
 		color: #fff;
-		padding: 10em 0 13em 0;
+		padding: 10em 0 8em 0;
 		text-align: center;
 		/* border: 1px solid blue; */
 		margin-top: 3rem;
