@@ -4027,7 +4027,7 @@
 	@media(max-width: 800px){
 		.nav-link{
 			/* border: 1px solid blue; */
-			margin-left: -5rem;
+			margin-left: -13rem;
 			width: 150px;
 			display: flex;
 		}
