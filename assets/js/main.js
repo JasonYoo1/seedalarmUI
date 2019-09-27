@@ -23,6 +23,7 @@
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
+			console.log(`written by Jason Yoo https://www.linkedin.com/in/jasonyoo1/ `)
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
