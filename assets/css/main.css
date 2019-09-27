@@ -83,7 +83,7 @@
 /* Basic */
 
 	@-ms-viewport {
-		width: device-width;
+		/* width: device-width; */
 	}
 
 	body {
@@ -93,7 +93,7 @@
 	@media screen and (max-width: 480px) {
 
 		html, body {
-			min-width: 320px;
+			min-width: 300px;
 		}
 
 	}
@@ -986,7 +986,7 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 800px) {
 
 			.row {
 				display: flex;
@@ -1231,7 +1231,7 @@
 
 		}
 
-		@media screen and (max-width: 840px) {
+		@media screen and (max-width: 800px) {
 
 			.row {
 				display: flex;
@@ -1972,14 +1972,15 @@
 		/* margin: 0 auto; */
 		margin: auto;
 		max-width: calc(100% - 5em);
-		width: 60em;
+		width: 50em;
 		/* border: 1px solid blue; */
 	}
 
 	@media(max-width: 800px ){
 		.container{
-			/* border: 1px solid blue; */
-			width: 2rem;
+			border: 1px solid red;
+			width: 1rem;
+			margin: auto;
 		}
 	}
 
