@@ -3208,7 +3208,7 @@
 			padding: 0 0 0 0;
 			background-position: left;
 			width: 170%;
-			margin-top: -12rem;
+			margin-top: 10rem;
 			margin-left: -3rem;
 		}
 	}
@@ -3279,7 +3279,7 @@
 	@media(max-width:800px){
 		#main{
 			/* width: 800px; */
-			border: 1px solid blue;
+			/* border: 1px solid blue; */
 			padding: 6rem 0 0 0;
 		}
 	}
@@ -3526,7 +3526,7 @@
 
 			@media(max-width: 800px){
 				.box{
-					width: 63%;
+					width: 100%;
 				}
 			}
 
