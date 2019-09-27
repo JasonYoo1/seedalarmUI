@@ -4058,3 +4058,36 @@
 			text-decoration: none;
 		}
 	}
+
+
+	.toprightimage{
+		/* border: 3px solid blue; */
+		width: 80%;
+	}
+
+	.backgroundGray{
+		background-color: #EEEEEE 
+	}
+
+	.middleRightHeading{
+		/* border: 1px solid blue; */
+		margin-left: -3rem;
+	}
+
+	#landingPageBtn{
+		/* border: 3px solid blue; */
+		/* padding: 9x; */
+		border-radius: 25px;
+		width: 15rem;
+		height: 3rem;
+		background-color: #00CCFF;
+		color: white;
+		font-size: 1rem;
+	}
+
+	#middlep{
+		/* border:1px solid blue; */
+		width: 90%;
+		margin: auto;
+		padding-bottom: 2rem;
+	}
