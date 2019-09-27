@@ -23,6 +23,14 @@
 		margin: auto; */
 	}
 
+	@media(max-width:800px){
+		html{
+			/* border: 30px solid green; */
+			/* margin-left: 1rem; */
+			margin: 0 auto 0 2rem;
+		}
+	}
+
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -37,7 +45,7 @@
 	@media(max-width: 800px){
 		body{
 			width: 750px;
-			margin: auto;
+			/* margin: auto; */
 		}
 	}
 
