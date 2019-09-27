@@ -3192,14 +3192,14 @@
 		padding: 8em 0 2em 0;
 		text-align: center;
 		/* border: 1px solid red; */
-		margin-top: 3rem;
+		/* margin-top: 3rem; */
 	}
 	@media(max-width:800px){
 		#banner{
 			/* border: 3px solid blue; */
 			padding: 0 0 0 0;
 			background-position: left;
-			width: 150%;
+			width: 100%;
 			margin-top: -4rem;
 		}
 	}
@@ -4020,8 +4020,8 @@
 	@media(max-width: 800px){
 		.nav-link{
 			/* border: 1px solid blue; */
-			margin-left: -25rem;
-			width: 700px;
+			margin-left: -5rem;
+			width: 150px;
 			display: flex;
 		}
 	}
