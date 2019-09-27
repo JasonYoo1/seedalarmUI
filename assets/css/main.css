@@ -3184,10 +3184,10 @@
 
 	#banner {
 		background-attachment:fixed;
-		background-image: url("../../images/screenshot3.png");
+		background-image: url("../../images/screenshot.png");
 		background-position: center ;
 		background-repeat: no-repeat;
-		background-size: 50%;
+		background-size: 66.5%;
 		color: #fff;
 		padding: 8em 0 2em 0;
 		text-align: center;
@@ -3962,7 +3962,7 @@
 	}
 
 	.navList{
-		/* border: 1px solid white; */
+		/* border: 1px solid black; */
 		display: flex;
 		color: white;
 		/* margin-right: rem; */
@@ -3970,7 +3970,7 @@
 		list-style: none;
 		margin-top: 2rem;
 		text-decoration: none;
-		margin-left: 40rem;
+		margin-left: 19rem;
 		margin-top: 3rem;
 		/* padding-right: -20rem; */
 	}
@@ -3979,8 +3979,9 @@
 		color: gray;
 		text-decoration: none;
 		/* border: 1px solid red; */
-		/* width: 9rem; */
-		/* margin-left: 1rem; */
+		width: 9rem;
+		text-align: right;
+		/* margin-: 3rem; */
 	}
 	.nav-item{
 		/* border: 1px solid green; */
@@ -3990,17 +3991,18 @@
 
 	#headers{
 		/* border: 3px solid blue; */
-		width: 1500px;
-		margin: auto;
+		/* width: 1000px; */
+		/* margin: ; */
 		/* margin-bottom: 3rem; */
 	}
 
 	.navBar{
 		/* border: 3px solid red; */
-		background: #212529;
+		/* background: #212529; */
 		display: flex;
-		width: 1500px;
+		width: 1280px;
 		margin: auto;
+
 	}
 	#middleimg{
 		width: 90%;
