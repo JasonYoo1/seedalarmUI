@@ -4083,6 +4083,10 @@
 		background-color: #00CCFF;
 		color: white;
 		font-size: 1rem;
+		text-decoration: none;
+	}
+	#landingPageBtn:hover{
+		color: white
 	}
 
 	#middlep{
@@ -4090,4 +4094,14 @@
 		width: 90%;
 		margin: auto;
 		padding-bottom: 2rem;
+	}
+
+	.link{
+		color: white;
+		text-decoration: none;
+	}
+
+	.link:hover{
+		text-decoration: none;
+		color: blue;
 	}
