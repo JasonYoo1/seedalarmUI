@@ -3197,7 +3197,7 @@
 		background-repeat: no-repeat;
 		background-size: 66.5%;
 		color: #fff;
-		padding: 8em 0 2em 0;
+		padding: -3rem 0 2em 0;
 		text-align: center;
 		/* border: 1px solid red; */
 		/* margin-top: 3rem; */
@@ -3752,12 +3752,12 @@
 		/* Section/Article */
 
 			headers.major {
-				padding: 1em;
+				/* padding: 1em; */
 			}
 
 				headers.major h2, headers.major p {
-					padding-left: 0.5em;
-					padding-right: 0.5em;
+					/* padding-left: 0.5em;
+					padding-right: 0.5em; */
 				}
 
 		/* Box */
@@ -3968,7 +3968,7 @@
 	.logo{
 		/* border: 1px solid white; */
 		margin-left: 2rem;
-		margin-bottom: 2rem;
+		/* margin-bottom: 2rem; */
 		margin-top: 1rem;
 	}
 
@@ -3982,7 +3982,7 @@
 		margin-top: 2rem;
 		text-decoration: none;
 		margin-left: 19rem;
-		margin-top: 3rem;
+		align-items: flex-end
 		/* padding-right: -20rem; */
 	}
 
@@ -3992,11 +3992,14 @@
 		/* border: 1px solid red; */
 		width: 9rem;
 		text-align: right;
-		/* margin-: 3rem; */
+		display: flex;
+		align-items: flex-end;
 	}
 	.nav-item{
-		margin-top: 1rem;
-
+		margin-top: 2rem;
+		/* border: 1px solid blue; */
+		padding-top: 3rem;
+		margin-bottom: -3rem;
 	}
 
 	#headers{
@@ -4004,6 +4007,8 @@
 		/* width: 1000px; */
 		/* margin: ; */
 		/* margin-bottom: 3rem; */
+		display: flex;
+		align-items: flex-end;
 	}
 
 	.navBar{
@@ -4012,7 +4017,7 @@
 		display: flex;
 		width: 1280px;
 		margin: auto;
-
+		align-items: flex-end;
 	}
 	#middleimg{
 		width: 90%;
