@@ -4062,18 +4062,18 @@
 
 	@media(max-width:800px){
 		#fixWidth{
-			margin-left: 4rem;
+			margin-left: 6.5rem;
 		}
 	}
 
 	@media(max-width:800px){
 		#fixWidth1{
-			margin-left: 7rem;
+			margin-left: 12rem;
 		}
 	}
 	@media(max-width:800px){
 		#fixWidth2{
-			margin-left: 9rem;
+			margin-left: 16rem;
 		}
 	}
 
@@ -4091,7 +4091,7 @@
 
 	@media(max-width: 800px){
 		.nav-item{
-			margin-left: -18rem;
+			margin-left: -20rem;
 			width: 300px;
 		}
 	}
