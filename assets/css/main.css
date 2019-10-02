@@ -3995,6 +3995,13 @@
 		/* padding-right: -20rem; */
 	}
 
+	@media(max-width:800px){
+		.navList{
+			width: 30rem;
+			border: 1px solid blue;
+		}
+	}
+
 	.nav-link{
 		color: gray;
 		text-decoration: none;
@@ -4043,9 +4050,33 @@
 
 	@media(max-width: 800px){
 		.logo{
-			display: none;
+			/* display: none; */
 		}
 	}
+	@media(max-width:800px){
+		#seedalarmlink{
+			margin-right: 4rem;
+			width: 15rem;
+		}
+	}
+
+	@media(max-width:800px){
+		#fixWidth{
+			margin-left: 4rem;
+		}
+	}
+
+	@media(max-width:800px){
+		#fixWidth1{
+			margin-left: 7rem;
+		}
+	}
+	@media(max-width:800px){
+		#fixWidth2{
+			margin-left: 9rem;
+		}
+	}
+
 
 	
 	@media(max-width: 800px){
@@ -4054,13 +4085,14 @@
 			/* margin-left: -5rem; */
 			/* width: 150px; */
 			display: flex;
+
 		}
 	}
 
 	@media(max-width: 800px){
 		.nav-item{
-			margin-left: -27rem;
-			width: 600px;
+			margin-left: -18rem;
+			width: 300px;
 		}
 	}
 
