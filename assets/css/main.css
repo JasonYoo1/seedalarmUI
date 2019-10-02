@@ -3315,7 +3315,7 @@
 		background: #f0f0f0;
 		padding: 1em 0 3em 0;
 		text-align: center;
-		width: 70%;
+		width: 90%;
 		margin: auto;
 		/* margin-top: -20rem; */
 	}
@@ -3972,7 +3972,7 @@
 
 	.logo{
 		/* border: 1px solid white; */
-		margin-left: -1rem;
+		/* margin-left: -1rem; */
 		/* margin-bottom: 2rem; */
 		margin-top: 4.5rem;
 	}
@@ -3989,7 +3989,7 @@
 		align-items: right;
 		align-self: right;
 		flex-direction: row;
-		margin-left: 28rem;
+		margin-left: 22rem;
 		/* align-items: flex-end */
 		/* padding-right: -20rem; */
 	}
@@ -4018,6 +4018,9 @@
 		/* margin-bottom: 3rem; */
 		display: flex;
 		align-items: flex-end;
+		width: 900px;
+		/* border: 1px solid blue; */
+		margin: auto; 	
 	}
 
 	.navBar{
@@ -4025,8 +4028,8 @@
 		/* background: #212529; */
 		display: flex;
 		flex-direction: row;
-		/* border: 1px solid blue; */
-		width: 1000px;
+		/* border: 1px solid green; */
+		width: 900px;
 		margin: auto;
 		height: 10rem;
 	}
