@@ -30,7 +30,7 @@
 
 	body {
 		line-height: 1;
-		width: 1500px;
+		width: 1000px;
 		margin: auto;
 	}
 
@@ -3444,7 +3444,8 @@
 		/* Banner */
 
 			#banner {
-				padding: 10em 0 18em 0;
+				padding: 8em 3em 10em 5em;
+				width: 900px;
 			}
 
 	}
