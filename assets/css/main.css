@@ -3209,8 +3209,8 @@
 			/* border: 3px solid blue; */
 			padding: 0 0 0 0;
 			background-position: left;
-			width: 150%;
-			margin-top: -3rem;
+			width: 750px;
+			/* margin-top: -rem; */
 			/* margin-left: -3rem; */
 		}
 	}
@@ -4050,15 +4050,15 @@
 	@media(max-width: 800px){
 		.nav-link{
 			/* border: 1px solid blue; */
-			margin-left: -5rem;
-			width: 150px;
+			/* margin-left: -5rem; */
+			/* width: 150px; */
 			display: flex;
 		}
 	}
 
 	@media(max-width: 800px){
 		.nav-item{
-			margin-left: -14rem;
+			margin-left: -30rem;
 			width: 700px;
 		}
 	}
