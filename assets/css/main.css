@@ -3987,7 +3987,8 @@
 		text-decoration: none;
 		align-items: right;
 		align-self: right;
-		flex-direction: row
+		flex-direction: row;
+		margin-left: 28rem;
 		/* align-items: flex-end */
 		/* padding-right: -20rem; */
 	}
@@ -3996,14 +3997,14 @@
 		color: gray;
 		text-decoration: none;
 		/* border: 1px solid red; */
-		width: 9rem;
+		/* width: 9rem; */
 		text-align: right;
 		display: flex;
 		align-items: flex-end;
 	}
 	.nav-item{
-		margin-top: 8rem;
-		margin-left: 4rem;
+		margin-top: 7.5rem;
+		margin-left: -1rem;
 		/* border: 1px solid blue; */
 		/* padding-top: 3rem; */
 		/* margin-bottom: -3rem; */
