@@ -3207,9 +3207,10 @@
 	@media(max-width:800px){
 		#banner{
 			/* border: 3px solid blue; */
-			padding: 0 0 0 0;
-			background-position: left;
-			width: 750px;
+			width: 10%;
+			background-size: 60%;
+			margin-left: -13rem;
+			margin-bottom: 5rem;
 			/* margin-top: -rem; */
 			/* margin-left: -3rem; */
 		}
@@ -3974,7 +3975,7 @@
 		/* border: 1px solid white; */
 		/* margin-left: -1rem; */
 		/* margin-bottom: 2rem; */
-		margin-top: 4.5rem;
+		margin-top: 5rem;
 	}
 
 	.navList{
@@ -4058,8 +4059,8 @@
 
 	@media(max-width: 800px){
 		.nav-item{
-			margin-left: -30rem;
-			width: 700px;
+			margin-left: -27rem;
+			width: 600px;
 		}
 	}
 
