@@ -3216,21 +3216,22 @@
 		}
 	}
 
-	@media(min-width:1400px){
+	/* @media(min-width:1400px){
 		#banner {
 			background-image: url("../../images/screenshot.png");
 			background-position: center ;
 			background-repeat: no-repeat;
 			background-size: 100%;
-			color: #fff;
+			color: #fff; */
 			/* padding: -3rem 0 2em 0; */
-			text-align: center;
+			/* text-align: center; */
 			/* border: 1px solid red; */
 			/* margin-top: 3rem; */
-			width: 100%;
+			/* width: 100%;
 			margin: auto;
+			height: 38rem;
 		}
-	}
+	} */
 
 		#banner :last-child {
 			margin-bottom: 0;
@@ -3886,7 +3887,7 @@
 		/* Basic */
 
 			html, body {
-				min-width: 320px;
+				/* min-width: 320px; */
 			}
 
 			body, input, select, textarea {
