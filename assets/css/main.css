@@ -4076,6 +4076,7 @@
 	@media(max-width: 800px){
 		.logo{
 			/* display: none; */
+			margin-left: -1.5rem;
 		}
 	}
 	@media(max-width:800px){
