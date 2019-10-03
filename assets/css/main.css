@@ -3216,6 +3216,14 @@
 		}
 	}
 
+	@media(min-width: 1200px){
+		#banner{
+			padding: 13rem;
+			background-size: 70%;
+			width: 90%;
+		}
+	}
+
 	/* @media(min-width:1400px){
 		#banner {
 			background-image: url("../../images/screenshot.png");
