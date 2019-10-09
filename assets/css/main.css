@@ -3224,6 +3224,19 @@
 		}
 	}
 
+	@media(min-width: 1200px){
+		#seedalarmlink{
+			/* border: 1px solid blue; */
+			width: 9rem;
+		}
+	}
+
+	@media(min-width: 1200px){
+		.nav-link{
+			/* border: 1px solid blue; */
+		}
+	}
+
 	/* @media(min-width:1400px){
 		#banner {
 			background-image: url("../../images/screenshot.png");
