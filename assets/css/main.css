@@ -4085,12 +4085,6 @@
 			width: 15rem;
 		}
 	}
-	@media(min-width:1700px){
-		#seedalarmlink{
-			/* margin-right: 4rem; */
-			width: 8.5rem;
-		}
-	}
 	@media(max-width:800px){
 		#fixWidth{
 			margin-left: 6.5rem;
@@ -4105,6 +4099,39 @@
 	@media(max-width:800px){
 		#fixWidth2{
 			margin-left: 16rem;
+		}
+	}
+
+	/* this is for bigger monitors */
+
+	@media(min-width:1700px){
+		#seedalarmlink{
+			/* margin-right: 4rem; */
+			width: 10rem;
+		}
+	}	
+	
+	@media(min-width:1700px){
+		#seedalarmlink{
+			margin-left:-9rem;
+			width: 10rem;
+			/* border: 1px solid blue; */
+		}
+	}
+	@media(min-width:1700px){
+		#fixWidth{
+			margin-left: -1.5rem;
+		}
+	}
+
+	@media(min-width:1700px){
+		#fixWidth1{
+			margin-left: 1rem;
+		}
+	}
+	@media(min-width:1700px){
+		#fixWidth2{
+			margin-left: 2rem;
 		}
 	}
 
